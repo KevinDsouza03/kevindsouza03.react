@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="productTitle">Product Name - Ruffian Supplies</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon-16x16.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="ATC.js"></script>
+</head>
+<body>
+    <div class="top-container">
+        <nav id="nav-container">
+            <h1>Ruffian Supplies</h1>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#contact">Contact Us!</a></li>
+                <li><a href="shop.html">Shop All!</a></li>
+                <li><a href="dry-food.html">Dry Food</a></li>
+                <li><a href="wet-food.html">Wet Food</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <img src="https://media.istockphoto.com/id/1303506906/vector/paw-line-icon.jpg?s=612x612&w=0&k=20&c=BUfzGEx32ODVjtLRZ4tG4Zx_oQk1KNDeG5LkD8O7E4Q=" alt="Icon">
+        </div>
+        <ul class="hamburger-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#contact">Contact Us!</a></li>
+            <li><a href="shop.html">Shop All!</a></li>
+            <li><a href="dry-food.html">Dry Food</a></li>
+            <li><a href="wet-food.html">Wet Food</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+
+    <div class="item-pic-container">
+        <img class="item-img" src="${productImage}" alt="${productName}">
+        <h2 class="item-header">${productName}</h2>
+    </div>
+
+    <div class="item-text-container">
+        <p>${productDescription}</p>
+        <div class="price">${productPrice}</div>
+        <input class='all-input' type="number" name="quantity" value="1" id="id_quantity" required max="50" min="1">
+        <button class="all-btn" id="atc-btn" onClick="addToCart('${productID}')">Add to Cart</button>
+    </div>
+
+    <footer>
+        <p>
+            341 Barkington Street <br>
+            Dogtown, Peanut Butter Land, 1337
+            <br>
+            Scarlet@ruffian.com
+            <br>
+            Copyright © 2023 Scarlet
+        </p>
+    </footer>
+
+    <script>
+        
+        const productDetails = {
+            productName: "Milk Bone Bacon Treat",
+            productImage: "https://s7d2.scene7.com/is/image/PetSmart/5238769?$CLEARjpg$",
+            productDescription: "Make your dog's life more fun by turning up the flavor. Milk-Bone Flavor Snacks dog biscuits feature the same vitamin-fortified goodness of Milk-Bone Original dog snacks in 3 delicious flavors your dog will love: beef, chicken and bacon. They're baked with love for wholesome goodness you can feel good about. And at only 5 calories each, these tasty mini dog treats are right-sized for treating more often. Better yet, the crunchy texture of Milk-Bone dog biscuits helps freshen dogs' breath and reduce tartar build-up, which means you can fully enjoy all those sloppy doggie kisses your dog will dole out to thank you. Order now to give your dog the simple, genuine joy that your dog gives you every day.",
+            productPrice: "$11.49",
+            productID: "milk-bone-treat"
+        };
+
+        document.getElementById('productTitle').innerText = `${productDetails.productName} - Ruffian Supplies`;
+        document.querySelector('.item-img').src = productDetails.productImage;
+        document.querySelector('.item-header').innerText = productDetails.productName;
+        document.querySelector('.item-text-container p').innerText = productDetails.productDescription;
+        document.querySelector('.price').innerText = productDetails.productPrice;
+        document.querySelector('#atc-btn').setAttribute('onClick', `addToCart('${productDetails.productID}')`);
+    </script>
+</body>
+</html>
