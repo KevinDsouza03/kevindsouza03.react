@@ -1,13 +1,10 @@
 import './App.css'
-
+import Navbar  from './Navbar/Navbar.jsx'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-
-    </>
+    <div className='pageContainer'>
+      <Navbar />
+    </div>
   )
 }
 

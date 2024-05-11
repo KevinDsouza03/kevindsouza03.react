@@ -1,0 +1,10 @@
+.nav-bar {
+    margin-left: 5px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-bar > p {
+    font-size: 25px;
+}
