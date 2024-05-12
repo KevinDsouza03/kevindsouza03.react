@@ -2,7 +2,7 @@ import './App.css'
 import Navbar  from './Navbar/Navbar.jsx'
 function App() {
   return (
-    <div className='pageContainer'>
+    <div className="">
       <Navbar />
     </div>
   )

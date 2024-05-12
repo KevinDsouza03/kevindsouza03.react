@@ -10,7 +10,11 @@ export default function Menu() {
 
     return(
         <nav className="menu">
-            <button onClick={handleMenuopen}>Menu</button> 
+            <button className="shadow-lg hover:bg-white hover:text-black hover:rounded-x1 transition-all duration-300 rounded-3x1 ease-linear"
+            
+            onClick={handleMenuopen}>
+                Menu
+            </button> 
             {isMenuopen && (
                 <ul className="menu-links">
                     <li><a href="/projects">Projects</a></li>
