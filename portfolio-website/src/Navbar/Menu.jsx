@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Menu.css'
-
+import RendermenuImages from './RendermenuImages.jsx';
+import RendermenuLinks from './RendermenuLinks.jsx';
 export default function Menu() {
     const [isMenuopen, setMenuopen] = useState(false)
     function handleMenuopen() {
@@ -16,10 +17,10 @@ export default function Menu() {
                 Menu
             </button> 
             {isMenuopen && (
-                <ul className="menu-links">
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/skills">Skills</a></li>
-                </ul>
+                <div>
+                <RendermenuImages />
+                <RendermenuLinks />
+                </div>
             )}
         </nav>
 
