@@ -7,7 +7,7 @@ export default function AboutmeDesc() {
             </h1>
 
 
-            <p className="font-thin w-auto">
+            <p className="font-normal text-xl">
             I'm an aspiring software engineer from New York. 
             </p>
         </div>
