@@ -8,7 +8,9 @@ export default function Skillscard({name, images}) {
                     </p>
                 </div>
                 <div class="px-6">
-                    <img src={images[0]}></img>
+                    {images.map((url, index) => (
+                        <img key={index} src={url} />
+                    ))}
                 </div>
             </div>
         </div>
