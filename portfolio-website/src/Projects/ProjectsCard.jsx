@@ -4,7 +4,7 @@ import RenderprojectDesc from './RenderprojectDesc.jsx'
 
 export default function ProjectsCard({image, name, desc}) { //Image is the path to my image, name is str, desc is
     return (
-        <div className="flex m-10 items-center gap-40  border-b-2 p-10">
+        <div className="flex m-10 items-center gap-40 border-dashed border-b-2 p-5">
             <RenderprojectImage 
                 image = {image}
                 name = {name}
