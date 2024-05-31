@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard.jsx'
 
 export default function Projects() {
     return(
-        <div className=" w-4/6 px-2 ">
+        <div className="grid w-4/6 px-2">
         <ProjectsCard image="../../assets/ForcaSteam-PFP.gif" name="GameInsightify" desc="
         I'm a casual video game player, and felt that there were no real chatbots with good recommendations for games to play.
 
