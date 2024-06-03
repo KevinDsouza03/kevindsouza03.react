@@ -9,6 +9,7 @@ function App() {
     <div className="grid place-items-center bg-[#343434]">
       <Navbar />
       <Aboutme />
+      {/* Padding is added to every div in index.css. Adjust as neccesary */}
       <Experience />
       <Projects />
       <Skills />
