@@ -14,11 +14,6 @@ export default function AboutmeImage() {
                             <img className="size-7" src="../../assets/github.png"/>
                         </a>
                 </Button>
-                <Button className="rounded  text-white data-[hover]:bg-sky-500 data-[active]:bg-sky-700 mx-2 mt-2 ">
-                    <a href="https://github.com/KevinDsouza03">
-                            <img className="size-7" src="../../assets/github.png"/>
-                        </a>
-                </Button>
             </div>
         </div>
     )
