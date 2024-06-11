@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <div class='top-container'>
+        <head>
+            <title>Cart - Ruffian Supplies</title>
+            <link rel="icon" type="'image/x-icon" href="../assets/favicon-16x16.png">
+            <link rel="stylesheet" href="..\style.css">
+        </head>
+        <nav id="nav-container">
+            <h1>Ruffian Supplies</h1>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#contact">Contact Us!</a></li>
+                <li><a href="shop.html">Shop All!</a></li>
+                <li><a href="dry-food.html">Dry Food</a></li>
+                <li><a href="wet-food.html">Wet Food</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <img src="https://media.istockphoto.com/id/1303506906/vector/paw-line-icon.jpg?s=612x612&w=0&k=20&c=BUfzGEx32ODVjtLRZ4tG4Zx_oQk1KNDeG5LkD8O7E4Q=" alt="Icon">
+        </div>
+        <ul class="hamburger-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#contact">Contact Us!</a></li>
+            <li><a href="shop.html">Shop All!</a></li>
+            <li><a href="dry-food.html">Dry Food</a></li>
+            <li><a href="wet-food.html">Wet Food</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <body>
+        <div class="cart-grid">
+            <div class="cart-container">
+                <div class="shopping-container">
+                    <h2>Items Purchased</h2>
+                    <!-- now starts listings of items. JS needed?-->
+                    <ul id="cart-list">
+        
+                    </ul>
+                </div>
+                <div class="order-container">
+                    <h1> Order Placed! </h1>
+                    <span class="confirm-text">
+                        Thank you for your purchase!<br>
+                        <span id="final-price"></span><br>
+                        <span id="order-id"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script>
+            const cartData = JSON.parse(localStorage.getItem('cart')) || {};
+    
+            const cartList = document.getElementById('cart-list');
+            total_price = 0.0
+            for (const productId in cartData) {
+                const link = document.createElement('a');
+                link.href = `${productId}.html`;
+                const quantity = cartData[productId].quantity;
+                const name = cartData[productId].name;
+                const price = cartData[productId].price; 
+                total_price += quantity * price;
+
+                const divItem = document.createElement('div');
+                divItem.className = 'item-in-cart-container';
+
+                const listItem = document.createElement('li');
+                const imgItem = document.createElement('img');
+                imgItem.src = cartData[productId].img;
+                imgItem.alt = ` Picture of ${name}`;
+
+                const text = document.createElement('span');
+                text.textContent = `${name}: ${quantity} x $${price.toFixed(2)}`; 
+
+                const divImg = document.createElement('div');
+                divImg.className = 'item-in-cart-img';
+
+                const divText = document.createElement('div');
+                divText.className = 'item-in-cart-text';
+                
+                
+
+                divText.appendChild(text);
+                divImg.appendChild(imgItem);
+                divText.appendChild(divImg);
+                divItem.appendChild(divText);
+                divItem.appendChild(divImg);
+                link.appendChild(divItem);
+                listItem.append(link);
+                cartList.appendChild(listItem);
+            }
+            localStorage.clear()
+            tax = total_price * .0875;
+            pre_tax = total_price.toFixed(2);
+            total_price += tax + 8.99;
+            total_price = total_price.toFixed(2)
+            const order_id = pre_tax * total_price * tax;
+            document.getElementById('order-id').textContent = `Your Order Confirmation Number is: ${order_id.toFixed(0)}`;
+            document.getElementById('final-price').textContent = `Total: $${total_price}`;
+
+        </script>
+    </body>
+
+
+
+    <footer>
+        <p>
+            341 Barkington Street <br>
+            Dogtown, Peanut Butter Land, 1337
+            <br>
+            Scarlet@ruffian.com
+            <br>
+            Copyright © 2023 Scarlet
+        </p>
+        </footer>
+        
+
+
+</html>
