@@ -1,4 +1,5 @@
 import { Button } from "@headlessui/react"
+
 export default function AboutmeImage() {
     return(
         <div className="w-auto max-w-md">
