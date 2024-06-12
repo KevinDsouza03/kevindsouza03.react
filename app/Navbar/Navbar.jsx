@@ -7,12 +7,12 @@ export default function Navbar() {
             <MenuItems className="p-1 inline-block">
                 <MenuItem>
                     <a href="https://www.linkedin.com/in/kevindsouza03/">
-                        <img className="size-7" src="../../assets/linkedin.png"/>
+                        <img className="size-7" src="linkedin.png"/>
                     </a>
                 </MenuItem>
                 <MenuItem>
                     <a href="https://github.com/KevinDsouza03">
-                        <img className="size-7" src="../../assets/github.png"/>
+                        <img className="size-7" src="github.png"/>
                     </a>
                 </MenuItem>
                 
