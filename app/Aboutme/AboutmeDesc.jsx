@@ -1,15 +1,17 @@
 export default function AboutmeDesc() {
     return(
-        <div className="">
-            <h1 className="">Hey, my 
-            name is 
-            <p>Kevin</p>
-            </h1>
-
-
-            <p className="font-normal text-xl">
-            I'm an aspiring software engineer from New York. 
-            </p>
+        <div className="text-center"> 
+            <div className="text-8xl">
+                <h1 className="">Hey, my 
+                name is 
+                <p>Kevin</p>
+                </h1>
+            </div>
+            <div className="">
+                <p className="text-2xl">
+                I'm an aspiring software engineer from New York. 
+                </p>
+            </div>
         </div>
     )
 
