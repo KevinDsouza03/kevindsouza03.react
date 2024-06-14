@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <Menu as="div" className="fixed top-10 left-10 data-[open]:overscroll-contain">
-            <MenuButton>Kevin Dsouza, Software Engineer</MenuButton>
+            <MenuButton><p className="text-3xl">Menu</p></MenuButton>
             <MenuItems className="">
                 <div className='flex p-1'>
                 <MenuItem className='p-2'>
@@ -23,7 +23,15 @@ export default function Navbar() {
                 </div>
                 <MenuItem className='p-2'>
                     <Link href="/">
-                        <h2>Home</h2>
+                    <div className="flex flex-row ">
+                        <h2 className='text-3xl'>Home</h2>
+                        <p className="text-2x1 p-4">Back to the home screen</p>
+                    </div>
+                    </Link>
+                </MenuItem>
+                <MenuItem className='p-2'>
+                    <Link href="/CV">
+                        <h2>About Me</h2>
                     </Link>
                 </MenuItem>
                 
