@@ -1,7 +1,7 @@
 export default function AboutmeDesc() {
     return(
         <div className="text-center"> 
-            <div className="text-8xl">
+            <div className="text-4xl">
                 <h1 className="">Hey, my 
                 name is 
                 <p>Kevin</p>
