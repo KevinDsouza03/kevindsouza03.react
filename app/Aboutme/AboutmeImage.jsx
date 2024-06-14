@@ -1,4 +1,5 @@
 import { Button } from "@headlessui/react"
+import Link from 'next/link'
 
 export default function AboutmeImage() {
     return(
@@ -16,9 +17,9 @@ export default function AboutmeImage() {
                         </a>
                 </Button>
                 <Button className="rounded p-2 text-white data-[hover]:bg-sky-500 data-[active]:bg-sky-700 mx-2 mt-2 ">
-                    <a href="https://github.com/KevinDsouza03">
+                    <Link href="/CV">
                             <img className="size-10" src="github.png"/>
-                        </a>
+                        </Link>
                 </Button>
             </div>
         </div>
