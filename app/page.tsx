@@ -8,14 +8,14 @@ import Experience from './Experience/Experience.jsx'
 export default function Home() {
   return (
     <div className="bg-[#343434] p-5">
-    <div className="grid place-items-center bg-[#1A2421] bg-opacity-30">
-      <Navbar />
-      <Aboutme />
-      {/* Padding is added to every div in index.css. Adjust as neccesary */}
-      <Experience />
-      <Projects />
-      <Skills />
-    </div>
+      <div className="grid place-items-center bg-[#1A2421] bg-opacity-30">
+        <Navbar />
+        <Aboutme />
+        {/* Padding is added to every div in index.css. Adjust as neccesary */}
+        <Experience />
+        <Projects />
+        <Skills />
+      </div>
     </div>
   )
 }
