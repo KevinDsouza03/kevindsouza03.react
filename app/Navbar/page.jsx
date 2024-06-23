@@ -5,7 +5,6 @@ export default function navBar() {
     return (
         <div>
             <Navbar />
-
         </div>
 
     )
