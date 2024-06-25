@@ -5,7 +5,7 @@ export default function Experience() {
     return(
         <div className=''>
             <Experiencecard 
-                image = 'csi_logo.jpg'
+                image = '/csi_logo.jpg'
                 name = "Education"
                 desc="
                 Here at CSI, I study Computer Science and also work in IT as a College Assistant for the college. 
@@ -14,7 +14,7 @@ export default function Experience() {
                     "
             />
             <Experiencecard 
-                image = 'ctp.png'
+                image = '/ctp.png'
                 name = "Data Science Bootcamp"
                 desc="
                 This was a 9 month bootcamp where I learned the ins and outs of Data Science. 

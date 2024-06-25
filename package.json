@@ -6,14 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "debug": "node --inspect server.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-pdf": "^9.0.0"
+    "react-pdf": "^9.0.0",
+    "server.js": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

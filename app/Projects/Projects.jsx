@@ -11,7 +11,7 @@ export default function Projects() {
         We successfully created this utilizing Langchain, Streamlit, OpenAI's API, and datasets from the platform Steam.
         We also added a section for visualizing your favorite games stats, including like peak concurrent players and 2 week playtime, both showing how big the game was, and how big it is now.
         "
-        thumbnail="github.png"
+        thumbnail="/github.png"
         link="https://github.com/CTP-AKP/AKP_Data_Science"
         /> 
         
@@ -22,7 +22,7 @@ export default function Projects() {
         I had very minimal experience with frontend before this course, but I actually learned a lot by simply working on both my website here, and this project
         
         The site is written with vanilla HTML, CSS, and Javascript and shows my attempt at a Pet Store, featuring my own pet."
-        thumbnail="github.png"
+        thumbnail="/github.png"
         link="www.google.com"
         />
         </div>

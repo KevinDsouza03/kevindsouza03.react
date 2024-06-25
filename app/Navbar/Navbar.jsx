@@ -13,12 +13,12 @@ export default function Navbar() {
                 <div className='flex p-1'>
                 <MenuItem className='p-2'>
                     <a href="https://www.linkedin.com/in/kevindsouza03/" target="_blank">
-                        <img className="size-7" src="linkedin.png"/>
+                        <img className="size-7" src="/linkedin.png"/>
                     </a>
                 </MenuItem>
                 <MenuItem className='p-2'>
                     <a href="https://github.com/KevinDsouza03" target="_blank">
-                        <img className="size-7" src="github.png"/>
+                        <img className="size-7" src="/github.png"/>
                     </a>
                 </MenuItem>
                 </div>
