@@ -4,6 +4,26 @@ import ProjectsCard from './ProjectsCard.jsx'
 export default function Projects() {
     return(
         <div className="    ">
+        <ProjectsCard image="AWS.jpg" name="Anderson's APIs" desc="
+        Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
+        Computer Science department. This API is used by students daily to teach them how APIs function, alongside AWS. Specifically, we used
+        AWS Lambda for function handling, API Gateway for routing, and S3 for persistent storage. We also incorported user authentication to ensure malicious activity would be
+        haltedAll of this was my first time delving into
+        making my own API, even though I had used them in the past.
+        "
+        thumbnail="/github.png"
+        link="https://github.com/prince-ao/anderson-s-api"
+        /> 
+        <ProjectsCard image="AWS.jpg" name="RateMySchool" desc="
+        Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
+        Computer Science department. This API is used by students daily to teach them how APIs function, alongside AWS. Specifically, we used
+        AWS Lambda for function handling, API Gateway for routing, and S3 for persistent storage. We also incorported user authentication to ensure malicious activity would be
+        haltedAll of this was my first time delving into
+        making my own API, even though I had used them in the past.
+        "
+        thumbnail="/github.png"
+        link="https://github.com/Rate-My-School/RateMySchool"
+        />
         <ProjectsCard image="ForcaSteam-PFP.gif" name="GameInsightify" desc="
         I'm a casual video game player, and felt that there were no real chatbots with good recommendations for games to play.
 
