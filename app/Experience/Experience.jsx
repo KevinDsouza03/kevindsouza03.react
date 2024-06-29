@@ -3,7 +3,7 @@ import Experiencecard from './Experiencecard.jsx'
 
 export default function Experience() {
     return(
-        <div className=''>
+        <div className='grid '>
             <Experiencecard 
                 image = '/csi_logo.jpg'
                 name = "Education"
