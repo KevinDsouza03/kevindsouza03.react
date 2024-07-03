@@ -14,12 +14,13 @@ export default function Projects() {
         thumbnail="/github.png"
         link="https://github.com/prince-ao/anderson-s-api"
         /> 
-        <ProjectsCard image="AWS.jpg" name="RateMySchool" desc="
-        Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
-        Computer Science department. This API is used by students daily to teach them how APIs function, alongside AWS. Specifically, we used
-        AWS Lambda for function handling, API Gateway for routing, and S3 for persistent storage. We also incorported user authentication to ensure malicious activity would be
-        haltedAll of this was my first time delving into
-        making my own API, even though I had used them in the past.
+        <ProjectsCard image="" name="RateMySchool" desc="
+        During my Spring 2023 semester, myself and two other team members decided to create a full-stack application
+        for rating your university. This was my first time actually creating a full-stack website. This project consisted of
+        using vanilla HTML, MongoDB for backend data routing, Bootstrap for frontend styling, and utilizing the Google Search
+        API for data and images. Overall, this was a big learning experience for me, and was apart of the reason why I 
+        decided to make the website you're reading this on right now; to understand full-stack development even further and delve
+        into it headfirst.
         "
         thumbnail="/github.png"
         link="https://github.com/Rate-My-School/RateMySchool"
