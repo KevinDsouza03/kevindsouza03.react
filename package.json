@@ -3,19 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --debug",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "cross-env NODE_OPTIONS='--inspect' next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.0.4",
+    "@headlessui/react": "^2.1.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-pdf": "^9.0.0",
-    "server.js": "^1.0.0",
-    "webpack": "^5.92.1"
+    "react-pdf": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
