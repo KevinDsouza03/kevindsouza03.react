@@ -1,10 +1,10 @@
 
-import ProjectsCard from './ProjectsCard.jsx'
+import Projectscard from './ProjectsCard.jsx'
 
 export default function Projects() {
         return(
         <div className="    ">
-        <ProjectsCard image="AWS.jpg" name="Anderson's APIs" desc="
+        <Projectscard image="AWS.jpg" name="Anderson's APIs" desc="
         Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
         Computer Science department. This API is used by students daily to teach them how APIs function, alongside AWS. Specifically, we used
         AWS Lambda for function handling, API Gateway for routing, and S3 for persistent storage. We also incorported user authentication to ensure malicious activity would be
@@ -14,7 +14,7 @@ export default function Projects() {
         thumbnail="/github.png"
         link="https://github.com/prince-ao/anderson-s-api"
         /> 
-        <ProjectsCard image="RatemySchool.gif" name="RateMySchool" desc="
+        <Projectscard image="RatemySchool.gif" name="RateMySchool" desc="
         For my Software Engineering class, in a team of three we made a full-stack website for rating your university. The website was made using MongoDB for 
         routes, Bootstrap for styling, and the Google Search API and a dataset for the universities on the website.
         This was my first time trying to build a full-stack application, and it was a major learning experience on how backend works with both a routing,
@@ -24,7 +24,7 @@ export default function Projects() {
         thumbnail="/github.png"
         link="https://github.com/Rate-My-School/RateMySchool"
         />
-        <ProjectsCard image="ForcaSteam-PFP.gif" name="GameInsightify" desc="
+        <Projectscard image="ForcaSteam-PFP.gif" name="GameInsightify" desc="
         I'm a casual video game player, and felt that there were no real chatbots with good recommendations for games to play.
 
         My group during the first half of CUNY Tech Prep, we felt the same way; So we decided to embark on a journey to create a chatbot that would recommend games to play based on the user's input.
@@ -36,7 +36,7 @@ export default function Projects() {
         /> 
         
                 
-        <ProjectsCard image="RuffianSupplies.gif" name="Ruffian Supplies" 
+        <Projectscard image="RuffianSupplies.gif" name="Ruffian Supplies" 
         desc="A final project for my Intro to Web Development Course, that proved to be much more fun than anticipated
 
         I had very minimal experience with frontend before this course, but I actually learned a lot by simply working on both my website here, and this project
