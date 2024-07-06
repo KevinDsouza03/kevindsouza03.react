@@ -2,7 +2,7 @@
 import ProjectsCard from './ProjectsCard.jsx'
 
 export default function Projects() {
-    return(
+        return(
         <div className="    ">
         <ProjectsCard image="AWS.jpg" name="Anderson's APIs" desc="
         Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
@@ -19,7 +19,7 @@ export default function Projects() {
         routes, Bootstrap for styling, and the Google Search API and a dataset for the universities on the website.
         This was my first time trying to build a full-stack application, and it was a major learning experience on how backend works with both a routing,
         database, and obtaining data perspective. My most familiar of which was how to sort and interact with data, but unsure of how to actually implement it into an app.
-        This further encouraged me to try and make this current website, for full-stack on my own.
+        Overall, this was a big learning experience, and it encouraged me to make this current website, for full-stack on my own.
         "
         thumbnail="/github.png"
         link="https://github.com/Rate-My-School/RateMySchool"
@@ -46,7 +46,7 @@ export default function Projects() {
         link="www.google.com"
         />
         </div>
-    )
+        )
 
 
 }
