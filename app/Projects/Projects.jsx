@@ -15,7 +15,11 @@ export default function Projects() {
         link="https://github.com/prince-ao/anderson-s-api"
         /> 
         <ProjectsCard image="RatemySchool.gif" name="RateMySchool" desc="
-        TEMP
+        For my Software Engineering class, in a team of three we made a full-stack website for rating your university. The website was made using MongoDB for 
+        routes, Bootstrap for styling, and the Google Search API and a dataset for the universities on the website.
+        This was my first time trying to build a full-stack application, and it was a major learning experience on how backend works with both a routing,
+        database, and obtaining data perspective. My most familiar of which was how to sort and interact with data, but unsure of how to actually implement it into an app.
+        This further encouraged me to try and make this current website, for full-stack on my own.
         "
         thumbnail="/github.png"
         link="https://github.com/Rate-My-School/RateMySchool"
