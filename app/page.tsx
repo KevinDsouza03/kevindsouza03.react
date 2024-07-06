@@ -1,10 +1,9 @@
-
-import Aboutme from './Aboutme/Aboutme.jsx'
-import './App.css'
-import Navbar  from './Navbar/Navbar.jsx'
-import Projects from './Projects/Projects.jsx'
-import Skills from './Skills/Skills.jsx'
-import Experience from './Experience/Experience.jsx'
+import Aboutme from "./Aboutme/Aboutme.jsx";
+import "./App.css";
+import Navbar from "./Navbar/Navbar.jsx";
+import Projects from "./Projects/Projects.jsx";
+import Skills from "./Skills/Skills.jsx";
+import Experience from "./Experience/Experience.jsx";
 export default function Home() {
   return (
     <div className="group bg-[#343434] p-5">
@@ -17,6 +16,5 @@ export default function Home() {
         <Skills />
       </div>
     </div>
-  )
+  );
 }
-
