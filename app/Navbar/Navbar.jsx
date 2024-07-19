@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/react";
 
 
-export default function Navbar({ onColorChange }) {
+export default function Navbar() {
   //make menu size of root div
   return (
     <Menu
