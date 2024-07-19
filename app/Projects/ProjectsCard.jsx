@@ -1,7 +1,5 @@
-"use client"
 import RenderprojectImage from "./RenderprojectImage.jsx";
 import RenderprojectDesc from "./RenderprojectDesc.jsx";
-import HoverContext from '../components/HoverContext.jsx';
 
 export default function Projectscard({ image, name, desc, thumbnail, link }) {
   //Image is the path to my image, name is str, desc is
