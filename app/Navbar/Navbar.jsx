@@ -9,12 +9,13 @@ export default function Navbar() {
   return (
     <Menu
       as="div"
-      className="fixed top-10 left-10 data-[open]:overscroll-contain"
+      className="fixed top-5 left-5 data-[open]:overscroll-contain data-[open]:size-full data-[open]:bg-gray-500
+      "
     >
       <MenuButton className=" border-white border rounded py-1 px-5 text-2xl font-semibold text-whitefocus:outline-none data-[hover]:bg-gray-700 ">
         Menu
       </MenuButton>
-      <MenuItems className="">
+      <MenuItems className="pl-10">
         <div className="flex p-1">
           <MenuItem className="p-2">
             <a
