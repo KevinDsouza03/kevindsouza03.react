@@ -34,17 +34,17 @@ export default function Navbar() {
         </div>
         <MenuItem className="p-2">
           <Link href="/">
-            <div className="flex flex-row ">
-              <h2 className="inline text-3xl ">Home</h2>
-              <span className=" inline text-2x1 ">Back to the home screen</span>
+            <div className="relative flex flex-row items-center">
+              <h2 className="text-5xl border-black border-solid border-r-2 pr-10">Home</h2>
+              <span className="absolute bottom-0 left-0 text-2xl  pl-10 ml-40 ">Back to the home page.</span>
             </div>
           </Link>
         </MenuItem>
         <MenuItem className="p-2">
           <Link href="/CV">
-          <div className="flex flex-row">
-            <h2 className="text-3x1">Resume</h2>
-            <span className="inline text-2x1">To my resume</span>
+          <div className="relative flex flex-row items-center">
+            <h2 className="text-5xl border-black border-solid border-r-2 pr-5">Resume</h2>
+            <span className="absolute bottom-0 left-0 text-2xl pl-20 ml-40">To my resume.</span>
           </div>
           </Link>
         </MenuItem>
