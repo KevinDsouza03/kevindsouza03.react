@@ -9,7 +9,8 @@ Todo:
     - Line for start of socials area
     - Fix the overextension on the right
 - Experience:
-    - Font size relative to screen size. Currently a little big
+    - ~~Font size relative to screen size. Currently a little big~~ Adjust font size
+    - For smaller sizes, make them stack on eachother. Bigger, make them more spacious
 - Projects:
     - Center github/link button
     - Adjust font size relative to screen size. Currently a little small
