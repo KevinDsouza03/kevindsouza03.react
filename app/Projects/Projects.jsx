@@ -2,7 +2,7 @@ import Projectscard from "./ProjectsCard.jsx";
 
 export default function Projects() {
   return (
-    <div className="    ">
+    <section className="    ">
       <Projectscard
         image="AWS.jpg"
         name="Anderson's APIs"
@@ -54,6 +54,6 @@ export default function Projects() {
         thumbnail="/github.png"
         link="www.google.com"
       />
-    </div>
+    </section>
   );
 }
