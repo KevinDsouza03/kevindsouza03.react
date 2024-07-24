@@ -2,7 +2,7 @@ import Experiencecard from "./Experiencecard.jsx";
 
 export default function Experience() {
   return (
-    <div className="grid ">
+    <div className="flex gap-4">
       <Experiencecard
         image="/csi_logo.jpg"
         name="Education"
