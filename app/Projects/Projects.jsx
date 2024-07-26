@@ -46,11 +46,11 @@ export default function Projects() {
       <Projectscard
         image="RuffianSupplies.gif"
         name="Ruffian Supplies"
-        desc="A final project for my Intro to Web Development Course, that proved to be much more fun than anticipated
+        desc="My final project for the Intro to Web Development course turned out to be more enjoyable than I expected.
 
-        I had very minimal experience with frontend before this course, but I actually learned a lot by simply working on both my website here, and this project
-        
-        The site is written with vanilla HTML, CSS, and Javascript and shows my attempt at a Pet Store, featuring my own pet."
+        I had very little frontend experience before taking this course, but I learned a great deal while working on this project and my website.
+
+        This site, created with vanilla HTML, CSS, and JavaScript, is my attempt at a Pet Store and features my own pet."
         thumbnail="/github.png"
         link="www.google.com"
       />
