@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <Menu
       as="div"
-      className="fixed top-5 left-5 data-[open]:overscroll-contain data-[open]:h-full data-[open]:w-full data-[open]:bg-gray-500
+      className="fixed top-5 left-5 data-[open]:overscroll-contain data[open]:min-h-screen data-[open]:h-full data-[open]:w-full data-[open]:bg-gray-500
       
       "
     >
@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link href="/">
             <div className="relative flex flex-row items-center">
               <h2 className="text-5xl border-black border-solid border-r-2 pr-10">Home</h2>
-              <span className="absolute bottom-0 left-0 text-2xl  pl-10 ml-40 ">Back to the home page.</span>
+              <span className="absolute bottom-0 left-0 text-2xl pl-10 ml-40 ">Back to the home page.</span>
             </div>
           </Link>
         </MenuItem>
