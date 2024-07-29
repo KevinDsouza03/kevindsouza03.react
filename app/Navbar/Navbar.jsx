@@ -23,35 +23,35 @@ export default function Navbar() {
               <img className="size-7" src="/linkedin.png" />
             </a>
           </MenuItem>
-          <MenuItem className="p-2 mb-10">
+          <MenuItem className="p-2">
             <a href="https://github.com/KevinDsouza03" target="_blank">
               <img className="size-7" src="/github.png" />
             </a>
           </MenuItem>
         </div>
-        <MenuItem className="pb-2 ">
+        <MenuItem className="p-2 ">
+        <div className="relative flex flex-row items-center mb-10">
           <Link href="/">
-            <div className="relative flex flex-row items-center mb-10">
-              <h2 className="text-5xl border-black border-solid border-r-2 pr-10">
-                Home
-              </h2>
-              <span className="absolute bottom-0 left-0 text-2xl pl-10 ml-40">
-                Back to the home page.
-              </span>
-            </div>
+            <h2 className="text-6xl border-black border-solid border-r-2 pr-10">
+              Home
+            </h2>
           </Link>
+          <span className="text-2xl pl-20">
+            Back to the home page.
+          </span>
+          </div>
         </MenuItem>
         <MenuItem className="p-2">
+        <div className="relative flex flex-row items-center mb-10 ">
           <Link href="/CV">
-            <div className="relative flex flex-row items-center ">
-              <h2 className="text-5xl border-black border-solid border-r-2 pr-5">
+              <h2 className="text-6xl border-black border-solid border-r-2 pr-5">
                 Resume
               </h2>
-              <span className="absolute bottom-0 left-0 text-2xl pl-20 ml-40">
+              </Link>
+              <span className="text-2xl pl-20">
                 To my resume.
               </span>
             </div>
-          </Link>
         </MenuItem>
       </MenuItems>
     </Menu>

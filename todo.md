@@ -4,7 +4,7 @@ Todo:
     - Rendering on big screens/small screens. (Mediaqueries)
     - Add more distinguished separation between sections. Projects, Experience, etc.
 - Navbar:
-    - Spacing between NavBar items
+    - ~~Spacing between NavBar items~~
     - Make buttons "RenderButton" instead or style
     - Line for start of socials area
     - Make it almost like a new page, to cover everything. Menu looks weird when you dont click it at the top of the page.
