@@ -56,7 +56,7 @@ export default function Projects() {
 />
 ];
   return (
-    <section className="    ">
+    <section className="">
       {/* In my projects section here, I want to have a "ProjectSlider" that holds all my "ProjectsCard" to iterate through */}
       <ProjectSlider projectList={PROJECTS} />
     </section>

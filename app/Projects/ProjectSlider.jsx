@@ -1,6 +1,6 @@
 import { useState} from "react"
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react"
-
+import ProjectsCard from './ProjectsCard'
 export default function ProjectSlider({projectList}) {
     const [projectIndex, setProjectIndex] = useState(0) // 0-4 
 
@@ -20,8 +20,16 @@ export default function ProjectSlider({projectList}) {
 
     }
     return (
-        <div className="w-full h-full relative">
-            {projectList[projectIndex]} 
+        <div className="w-full h-full relative overflow-hidden ">
+            <div className="w-full h-full flex overflow-hidden"
+                    style={{ 
+                        transform: `translateX(-${projectIndex * 100}%)`
+                    }}>
+                {projectList.map(key =>
+                    projectList[key]
+                )}
+            </div>
+            {/* {projectList[projectIndex]}  */}
             <button 
             onClick={showPrevProject}
             className="absolute top-0 bot-0 p-1 cursor-pointer left-0 rounded hover:bg-slate-400 transition duration-400 data-[hover]:transit">
