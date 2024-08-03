@@ -21,14 +21,9 @@ export default function ProjectSlider({projectList}) {
     }
     return (
         <div className="w-full h-full relative">
-            <div className="flex overflow-hidden">
-                {projectList.map((project, index) => (
-                        <div key={index} className="w-full h-full" 
-                        style={{transform: `translate(-${projectIndex * 100}%)`}}
-                        >
-                            {project}
-                        </div>
-                    ))}
+            <div>
+                {projectList[projectIndex]}
+
             </div>
             <button 
             onClick={showPrevProject}

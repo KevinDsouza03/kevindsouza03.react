@@ -11,7 +11,7 @@ Todo:
     - ~~Font size relative to screen size. Currently a little big~~ Adjust font size
     - For smaller sizes, make them stack on eachother. Bigger, make them more spacious
 - Projects:
-    - ~~Center github/link button~~
+    - Made cards. Eventually make them flow smoother 
     - Mediaqueries text/stacking
 - Skills:
     - Make skills section more throughout. As in, maybe add the cards elsewhere or show the technologies uses more creatively throughout projects. Brainstorm
