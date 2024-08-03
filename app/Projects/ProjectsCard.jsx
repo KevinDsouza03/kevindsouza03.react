@@ -4,8 +4,8 @@ import RenderprojectDesc from "./RenderprojectDesc.jsx";
 export default function Projectscard({ image, name, desc, thumbnail, link }) {
   //Image is the path to my image, name is str, desc is
   return (
-    <div className="mb-20 w-full h-full">
-      <div className="hover:rounded-lg text-white cursor-pointer flex m-10 items-center gap-40 border-solid border-b-2 p-5">
+    <div className="flex w-full h-full">
+      <div className="hover:rounded-lg text-white cursor-pointer flex m-10 items-center gap-40 border-solid border-b-2 p-5 ">
         <RenderprojectImage image={image} name={name} />
         <RenderprojectDesc
           name={name}
