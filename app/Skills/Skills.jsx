@@ -27,7 +27,7 @@ const libraries = [
 
 export default function Skills() {
   return (
-    <div className="flex my-8 items-stretch ">
+    <div className="flex items-stretch ">
       <Skillscard name="Languages" images={languages} />
       <Skillscard name="Frameworks" images={frameworks} />
       <Skillscard name="Dev Tools" images={devTools} />

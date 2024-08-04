@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="group bg-[#343434] p-5 w-full h-full overflow-hidden">
       <Navbar />
-      <div className="grid place-items-center bg-[#1A2421] bg-opacity-30 p-20 space-y-60 w-full h-full gap-40">
+      <div className="grid place-items-center bg-[#1A2421] bg-opacity-30 p-20 space-y-50 w-full h-full gap-40">
         <Aboutme />
         {/* Padding is added to every div in index.css. Adjust as necessary */}
         <Experience />

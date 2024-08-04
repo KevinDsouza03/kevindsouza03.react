@@ -15,3 +15,4 @@ Todo:
     - Mediaqueries text/stacking
 - Skills:
     - Make skills section more throughout. As in, maybe add the cards elsewhere or show the technologies uses more creatively throughout projects. Brainstorm
+    - Question whether this is the right place for it or not.
