@@ -30,9 +30,9 @@ export default function Navbar() {
           </MenuItem>
         </div>
         <MenuItem className="p-2 ">
-        <div className="relative flex flex-row items-center mb-10">
+        <div className="relative flex flex-row items-center mb-10 ">
           <Link href="/">
-            <h2 className="text-6xl border-black border-solid border-r-2 pr-10">
+            <h2 className="text-6xl border-black border-solid border-r-2 pr-10 hover:text-blue-600 ">
               Home
             </h2>
           </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
         <MenuItem className="p-2">
         <div className="relative flex flex-row items-center mb-10 ">
           <Link href="/CV">
-              <h2 className="text-6xl border-black border-solid border-r-2 pr-5">
+              <h2 className="text-6xl border-black border-solid border-r-2 pr-5  hover:text-blue-600">
                 Resume
               </h2>
               </Link>

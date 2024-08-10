@@ -3,6 +3,7 @@ Todo:
 - General:
     - Rendering on big screens/small screens. (Mediaqueries)
     - Add more distinguished separation between sections. Projects, Experience, etc.
+    - Animations only start when in view
 - Navbar:
     - Make buttons "RenderButton" instead or style
     - Line for start of socials area
