@@ -1,3 +1,4 @@
+"use client"
 import Aboutme from "./Aboutme/Aboutme.jsx";
 import "./App.css";
 import Navbar from "./Navbar/Navbar.jsx";
