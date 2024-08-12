@@ -20,7 +20,7 @@ export default function ProjectSlider({projectList}) {
 
     }
     return (
-        <div className="w-full h-full relative">
+        <div className="w-full h-full ">
             <div className="flex animate-fadeIn">
                 {projectList[projectIndex]}
 
