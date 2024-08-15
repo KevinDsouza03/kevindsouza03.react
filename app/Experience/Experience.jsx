@@ -21,7 +21,7 @@ export default function Experience() {
           desc="
                   This was a 9 month bootcamp where I learned the ins and outs of Data Science. 
                   I learned how to use Pandas, Numpy, and Matplotlib: A strong trio for data visualization.
-                  I also learned how to train a Machine Learning model, and also use neural networks, RAG, and NLP
+                  I also learned how to train a Machine Learning model, and also use neural networks, RAG, and NLP.
 
                   This culminated in my Game Insightify project, 
                   
