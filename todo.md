@@ -2,7 +2,7 @@
 Todo:
 - General:
     - Rendering on big screens/small screens. (Mediaqueries)
-    - FONTS
+    - FONTS ? maybe done
     - Animations only start when in view (Scroll actions? Check for scroll?)
 - Navbar:
     - Make buttons "RenderButton" instead or style

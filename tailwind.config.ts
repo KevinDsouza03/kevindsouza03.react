@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        libre: ['"Libre Baskerville"', 'serif'],
+        libre: ['Libre Baskerville', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
