@@ -56,7 +56,7 @@ export default function Projects() {
 />
 ];
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full md:w-10/12 ">
       <h1 className="text-center text-4xl font-semibold pb-10">Some of my recent work</h1>
       {/* In my projects section here, I want to have a "ProjectSlider" that holds all my "ProjectsCard" to iterate through */}
       <ProjectSlider projectList={PROJECTS} />
