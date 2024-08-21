@@ -3,7 +3,7 @@ import Experiencecard from "./Experiencecard.jsx";
 export default function Experience() {
   return (
     <div className="flex gap-4 font-montserrat">
-      <div className="animate-slideInFromLeft">
+      <div className="flex animate-slideInFromLeft">
         <Experiencecard
           image="/csi_logo.jpg"
           name="Education"
@@ -14,7 +14,7 @@ export default function Experience() {
                       "
         />
       </div>
-      <div className="animate-slideInFromRight">
+      <div className="flex animate-slideInFromRight">
         <Experiencecard
           image="/ctp.png"
           name="Data Science Bootcamp"
