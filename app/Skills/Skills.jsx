@@ -11,23 +11,27 @@ const languages = [
 
 const frameworks = [
   "https://img.shields.io/badge/react-blue?style=for-the-badge&logo=react",
-  "https://img.shields.io/badge/scikit-learn-orange?style=for-the-badge&labelColor=blue",
+  "https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white",
   "https://img.shields.io/badge/NextJS-000000?style=for-the-badge&logo=next.js&logoColor=white",
-  "https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"
+  "https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white",
+  "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+  "https://img.shields.io/badge/Scrapy-2B2E34?style=for-the-badge&logo=scrapy&logoColor=white"
 ];
 
 const devTools = [
   "https://img.shields.io/badge/git-gray?style=for-the-badge&logo=git",
   "https://img.shields.io/badge/VSCode-%23007ACC?style=for-the-badge&logo=visualstudio",
   "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white",
-  "https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"
+  "https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white",
+  "https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white"
 ];
 
 const libraries = [
   "https://img.shields.io/badge/pandas-%2300008B?style=for-the-badge",
   "https://img.shields.io/badge/plotly-%23efefef?style=for-the-badge&logo=plotly&labelColor=gray",
-  "https://img.shields.io/badge/beautifulSoup4-%23a1caf1?style=for-the-badge&logo=pypi",
+  "https://img.shields.io/badge/BeautifulSoup4-4B8BBE?style=for-the-badge&logo=python&logoColor=white",
   "https://img.shields.io/badge/Selenium-white?style=for-the-badge&logo=selenium&logoColor=white&labelColor=green",
+  "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"
 ];
 
 export default function Skills() {
