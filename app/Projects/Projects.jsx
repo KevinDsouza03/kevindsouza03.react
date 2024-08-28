@@ -4,19 +4,6 @@ import ProjectSlider from "./ProjectSlider.jsx"
 export default function Projects() {
   const PROJECTS = [
     <Projectscard key={0}
-    image="AWS.jpg"
-    name="Anderson's APIs"
-    desc="
-    Over the course of two months during the summer, I developed, alongside other 2 other students, an API for the College of Staten Island's
-    Computer Science department. This API is used by students daily to teach them how APIs function, alongside AWS. Specifically, we used
-    AWS Lambda for function handling, API Gateway for routing, and S3 for persistent storage. We also incorported user authentication to ensure malicious activity would be
-    halted. All of this was my first time delving into
-    making my own API, even though I had used them in the past.
-    "
-    thumbnail="/github.png"
-    link="https://github.com/prince-ao/anderson-s-api"
-    />,
-    <Projectscard key={1}
     image="RatemySchool.gif"
     name="RateMySchool"
     desc="
@@ -29,7 +16,7 @@ export default function Projects() {
     thumbnail="/github.png"
     link="https://github.com/Rate-My-School/RateMySchool"
   />,
-  <Projectscard key={2}
+  <Projectscard key={1}
   image="ForcaSteam-PFP.gif"
   name="GameInsightify"
   desc="
@@ -43,7 +30,7 @@ export default function Projects() {
   link="https://github.com/CTP-AKP/AKP_Data_Science"
   />,
   
-  <Projectscard key={3}
+  <Projectscard key={2}
   image="RuffianSupplies.gif"
   name="Ruffian Supplies"
   desc="My final project for the Intro to Web Development course turned out to be more enjoyable than I expected.
