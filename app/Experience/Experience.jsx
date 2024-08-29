@@ -2,7 +2,7 @@ import Experiencecard from "./Experiencecard.jsx";
 
 export default function Experience() {
   return (
-    <div className="flex gap-4 font-montserrat">
+    <div className="flex gap-4 font-montserrat flex-col sm:flex-row">
       <div className="flex animate-slideInFromLeft">
         <Experiencecard
           image="/csi_logo.jpg"
@@ -21,11 +21,11 @@ export default function Experience() {
           desc="
                   This was a 9 month bootcamp where I learned the ins and outs of Data Science. 
                   I learned how to use Pandas, Numpy, and Matplotlib: A strong trio for data visualization.
-                  I also learned how to train a Machine Learning model, and also use neural networks, RAG, and NLP.
+                  I also learned how to train a Machine Learning model, and also utilize neural networks, RAG, and NLP.
 
                   This culminated in my Game Insightify project, 
                   
-                  utilizing the skills I learned here.
+                  where I displayed all that I learned throughout the 9 months.
                       "
         />
       </div>
