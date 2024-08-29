@@ -46,6 +46,14 @@ const config: Config = {
           '0%': { transform: 'translateY(-100%)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
+        typing: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+        blink: {
+          '0%, 100%': { borderColor: 'transparent' },
+          '50%': { borderColor: 'white' },
+        },
       },
       animation: {
         slide: 'slide 1s ',
@@ -54,6 +62,7 @@ const config: Config = {
         slideInFromLeft: 'slideInFromLeft 1.5s ease-in-out',
         slideInFromRight: 'slideInFromRight 1.5s ease-in-out',
         slideInFromTop: 'slideInFromTop .5s ease-out forwards',
+        typing: 'typing 2.5s steps(100, end) forwards, blink 1s infinite step-end',
       },
     },
   },

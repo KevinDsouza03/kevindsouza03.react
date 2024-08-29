@@ -2,8 +2,8 @@ import Experiencecard from "./Experiencecard.jsx";
 
 export default function Experience() {
   return (
-    <div className="flex gap-4 font-montserrat flex-col sm:flex-row">
-      <div className="flex animate-slideInFromLeft">
+    <div className="flex gap-4 font-montserrat flex-col sm:flex-row ">
+      <div className="flex animate-slideInFromLeft ">
         <Experiencecard
           image="/csi_logo.jpg"
           name="Education"
