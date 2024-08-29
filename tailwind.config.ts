@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '100': '28rem',
+        '104': '32rem'
+      },
       fontFamily: {
         libre: ['Libre Baskerville', 'serif'],
         montserrat: ['Montserrat', 'sans-serif'],
