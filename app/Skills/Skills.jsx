@@ -6,7 +6,8 @@ const languages = [
   "https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&labelColor=black",
   "https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=html5",
   "https://img.shields.io/badge/SQL-%23ffd7b5?style=for-the-badge&logo=mysql",
-  "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&logoWidth=20"
+  "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&logoWidth=20",
+  "https://img.shields.io/badge/ARM%20Legv8-0091BD?style=for-the-badge&logo=processor&logoColor=white"
 ];
 
 const frameworks = [
