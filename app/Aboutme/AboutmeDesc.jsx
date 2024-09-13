@@ -1,17 +1,12 @@
 export default function AboutmeDesc() {
   return (
-    <div className="text-center sm:text-left pr-2 ">
-      <div className="text-4xl sm:text-2xl">
-        <h1 className="">
-          Hey, my name is 
-          <p>Kevin</p>
-        </h1>
-      </div>
-      <div className="">
-        <p className="text-2xl font-libre sm:text-sm">
-          A software engineer who loves optimizing things and finding ways to improve.
-        </p>
-      </div>
+    <div className="text-center sm:text-left max-w-md">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        Hey, my name is <span className="block mt-2">Kevin</span>
+      </h1>
+      <p className="text-lg sm:text-xl md:text-2xl font-libre">
+        A software engineer who loves optimizing things and finding ways to improve.
+      </p>
     </div>
   );
 }

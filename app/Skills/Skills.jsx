@@ -36,9 +36,10 @@ const libraries = [
   "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"
 ];
 
+
 export default function Skills() {
   return (
-    <div className="flex items-stretch">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-4 sm:p-8">
       <Skillscard name="Languages" images={languages} />
       <Skillscard name="Frameworks" images={frameworks} />
       <Skillscard name="Dev Tools" images={devTools} />

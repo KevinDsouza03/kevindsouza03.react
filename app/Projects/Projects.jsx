@@ -43,9 +43,8 @@ export default function Projects() {
 />
 ];
   return (
-    <div className="w-full h-full md:w-10/12 ">
-      <h1 className="text-center text-4xl font-semibold pb-10">Some of my recent work</h1>
-      {/* In my projects section here, I want to have a "ProjectSlider" that holds all my "ProjectsCard" to iterate through */}
+    <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold mb-8 sm:mb-12">Some of my recent work</h1>
       <ProjectSlider projectList={PROJECTS} />
     </div>
   );

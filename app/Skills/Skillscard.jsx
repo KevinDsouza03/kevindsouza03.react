@@ -1,15 +1,13 @@
 export default function Skillscard({ name, images }) {
   return (
-    <div className="bg-[#64748b] space-x-2 m-10 items-center border-2 ">
-      <div className="max-w-sm overflow-hidden shadow-lg size-58">
-        <div className="px-6 py-10 ">
-          <p className="text-white-700 text-base border-b-2 ">{name}</p>
-        </div>
-        <div className="px-6 ">
-          {images.map((url, index) => (
-            <img key={index} src={url} />
-          ))}
-        </div>
+    <div className="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+      <div className="px-6 py-4 bg-gray-200">
+        <h3 className="text-lg sm:text-xl font-semibold text-gray-800">{name}</h3>
+      </div>
+      <div className="p-4 grid grid-cols-2 sm:grid-cols-3 gap-2">
+        {images.map((url, index) => (
+          <img key={index} src={url} alt={`Skill ${index + 1}`} className="w-full h-auto" />
+        ))}
       </div>
     </div>
   );
