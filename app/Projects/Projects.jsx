@@ -4,7 +4,7 @@ import ProjectSlider from "./ProjectSlider.jsx"
 export default function Projects() {
   const PROJECTS = [
     <Projectscard key={0}
-    image="RatemySchool.gif"
+    image="RateMySchool.gif"
     name="RateMySchool"
     desc="
     For my Software Engineering class, in a team of three we made a full-stack website for rating your university. The website was made using MongoDB for 
