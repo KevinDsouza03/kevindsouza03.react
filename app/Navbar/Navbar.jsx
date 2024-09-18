@@ -47,6 +47,7 @@ export default function Navbar() {
             <nav className="space-y-8">
               <MenuItem href="/" text="Home" description="Back to the home page." />
               <MenuItem href="/CV" text="Resume" description="View my resume." />
+              <MenuItem href="/Contact" text="Contact" description="Get in touch with me." />
             </nav>
           </div>
         </div>

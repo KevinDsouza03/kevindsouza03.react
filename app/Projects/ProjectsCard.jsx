@@ -7,7 +7,7 @@ export default function Projectscard({ image, name, desc, thumbnail, link }) {
       </div>
       <div className="w-full sm:w-1/2">
         <p className="text-base sm:text-lg md:text-xl mb-4">{desc}</p>
-        <div className="flex justify-center sm:justify-start">
+        <div className="flex justify-center">
           <a href={link} target="_blank" rel="noopener noreferrer" className="inline-block">
             <img className="w-8 h-8 transition-transform duration-300 ease-in-out hover:scale-110" src={thumbnail} alt="Project link" />
           </a>
