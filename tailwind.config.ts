@@ -9,6 +9,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'olive': {
+          DEFAULT: '#708238',
+          light: '#6A9C89',
+          dark: '#4A5D23',
+        },
+        'soft-black': '#1A1A1A',
+        'creme': "#FFE5CF",
+        'light-mint': '#E9EFEC',
+        'mint': "#CDFADB",
+      },
       spacing: {
         '100': '28rem',
         '104': '32rem'
@@ -71,6 +82,5 @@ const config: Config = {
     require("tailwindcss-animation-delay")
   ],
 };
-
 
 export default config;

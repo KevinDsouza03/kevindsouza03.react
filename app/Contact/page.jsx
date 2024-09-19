@@ -33,9 +33,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-[#343434] p-5 min-h-screen">
+    <div className="bg-[#1A2421]  p-5 min-h-screen">
       <Navbar />
-      <div className="bg-[#1A2421] bg-opacity-30 p-8 md:p-20 max-w-4xl mx-auto mt-10 rounded-lg shadow-lg">
+      <div className="bg-soft-black bg-opacity-30 p-8 md:p-20 max-w-4xl mx-auto mt-10 rounded-lg shadow-lg text-creme">
         <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Contact Me</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>

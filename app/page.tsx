@@ -8,9 +8,9 @@ import Experience from "./Experience/Experience.jsx";
 import ProjectSlider from "./Projects/ProjectSlider.jsx"
 export default function Home() {
   return (
-    <div className="group bg-[#343434] p-5 w-full h-full overflow-hidden ">
+    <div className="group bg-[#1A2421] p-5 w-full h-full overflow-hidden text-light-mint">
       <Navbar />
-      <div className="grid place-items-center bg-[#1A2421] bg-opacity-30 p-20 lg:space-y-40  space-y-52 max-w-full max-h-full gap-40">
+      <div className="grid place-items-center bg-soft-black bg-opacity-30 p-20 lg:space-y-40  space-y-52 max-w-full max-h-full gap-40">
         <Aboutme />
         {/* Padding is added to every div in index.css. Adjust as necessary */}
         <Experience />
