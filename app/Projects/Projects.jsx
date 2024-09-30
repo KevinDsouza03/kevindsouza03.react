@@ -4,6 +4,19 @@ import ProjectSlider from "./ProjectSlider.jsx"
 export default function Projects() {
   const PROJECTS = [
     <Projectscard key={0}
+    image="placeholder.png"
+    name="TimeLens"
+    desc="
+    TimeLens is a productivity and habit tracker for Windows PCs. My inspiration for TimeLens is to track my own computer habits, both inside and outside of work sessions.
+    In the recent years, short-form content has become the popular medium, and with that a lot more distracted people. TimeLens aims to help people who're interested in optimizing
+    their computer habits, with ease of use in mind.
+    Currently, I'm using the WindowsAPI for obtaining program data, Python with Pandas for data processing, and am working on using React with ReCharts to create a dashboard,
+    and use Go as a backend for my SQL database. (Heres a placeholder photo of my dog)
+    "
+    thumbnail="/github.png"
+    link="https://github.com/Rate-My-School/RateMySchool"
+  />,
+    <Projectscard key={1}
     image="RateMySchool.gif"
     name="RateMySchool"
     desc="
@@ -16,7 +29,7 @@ export default function Projects() {
     thumbnail="/github.png"
     link="https://github.com/Rate-My-School/RateMySchool"
   />,
-  <Projectscard key={1}
+  <Projectscard key={2}
   image="ForcaSteam-PFP.gif"
   name="GameInsightify"
   desc="
@@ -30,7 +43,7 @@ export default function Projects() {
   link="https://github.com/CTP-AKP/AKP_Data_Science"
   />,
   
-  <Projectscard key={2}
+  <Projectscard key={3}
   image="RuffianSupplies.gif"
   name="Ruffian Supplies"
   desc="My final project for the Intro to Web Development course turned out to be more enjoyable than I expected.
