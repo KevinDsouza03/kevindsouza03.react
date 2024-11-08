@@ -4,6 +4,21 @@ import ProjectSlider from "./ProjectSlider.jsx"
 export default function Projects() {
   const PROJECTS = [
     <Projectscard key={0}
+    image="MTASpeedDashboard.png"
+    name="MTA Speed Dashboard"
+    desc="
+    MTA Speed Dashboard was a project I made for the NYC MTA Open Data Competition. It uses the MTA Speed dataset, which is
+    a new set that shows the speed between points for every bus. For example, how long does the SIM33C take to go from its first
+    stop in Manhattan to the last stop? This dataset answers that and the dashboard serves as an interface for the data.
+    Some of the insights provided are a frequency analysis, of how the speed of a bus varies across the day.
+    Alongside this, a frequency analysis of how often a bus runs relative to the time of day. All of these can be compared with other
+    buses as well. Finally, its deployed onto the Streamlit Community Cloud so you can check it out by clicking the button below.
+     This was a fun way to get more experience with data science and had some applicability to my life.
+    "
+    thumbnail="/github.png"
+    link="https://mta-speed-dashboard.streamlit.app/"
+  />,
+    <Projectscard key={1}
     image="placeholder.png"
     name="TimeLens"
     desc="
@@ -16,7 +31,7 @@ export default function Projects() {
     thumbnail="/github.png"
     link="https://github.com/Rate-My-School/RateMySchool"
   />,
-    <Projectscard key={1}
+    <Projectscard key={2}
     image="RateMySchool.gif"
     name="RateMySchool"
     desc="
@@ -29,7 +44,7 @@ export default function Projects() {
     thumbnail="/github.png"
     link="https://github.com/Rate-My-School/RateMySchool"
   />,
-  <Projectscard key={2}
+  <Projectscard key={3}
   image="ForcaSteam-PFP.gif"
   name="GameInsightify"
   desc="
@@ -43,7 +58,7 @@ export default function Projects() {
   link="https://github.com/CTP-AKP/AKP_Data_Science"
   />,
   
-  <Projectscard key={3}
+  <Projectscard key={4}
   image="RuffianSupplies.gif"
   name="Ruffian Supplies"
   desc="My final project for the Intro to Web Development course turned out to be more enjoyable than I expected.
