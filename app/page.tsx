@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar.jsx";
 import Projects from "./Projects/Projects.jsx";
 import Skills from "./Skills/Skills.jsx";
 import Experience from "./Experience/Experience.jsx";
-import ProjectSlider from "./Projects/ProjectSlider.jsx"
+
 export default function Home() {
   return (
     <div className="group bg-[#1A2421] p-5 w-full h-full overflow-hidden text-light-mint ">
