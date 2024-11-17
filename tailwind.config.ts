@@ -79,6 +79,7 @@ const config: Config = {
     },
   },
   plugins: [
+    require('@tailwindcss/typography'),
     require("tailwindcss-animation-delay")
   ],
 };
