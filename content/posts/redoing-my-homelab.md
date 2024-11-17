@@ -1,9 +1,8 @@
 ---
     title: "Redoing my Homelab"
     date: "2024-11-16"
+    excerpt: "A guide to setting up a homelab environment"
 ---
-
-# Redoing my Homelab
 
 ## What is a Homelab
 I would say a Homelab is a device or collection of devices that can help you simulate or host your own services. Such as maybe your own web server which can be used for many things, like your own cloud storage or a network wide adblock. It can also be a way to control your smart devices using your own setup or custom firmware or even a raspberry pi. For me, I have my own Ubuntu server based off my first ever desktop from over a decade ago. But I never formally made a "Homelab" setup on my actual computer. So this redoing would be me installing and configuring Kali Linux on my own computer, for a second time and documenting it.

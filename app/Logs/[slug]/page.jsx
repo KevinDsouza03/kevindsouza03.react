@@ -1,6 +1,6 @@
-import { getPost, getAllPosts } from '@/lib/posts';
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import { serialize } from 'next-mdx-remote/serialize';
+import { getPost, getAllPosts } from '@/app/lib/posts';
+import { remark } from 'remark';
+import html from 'remark-html';
 import { notFound } from 'next/navigation';
 
 // Generate static params for all posts
@@ -29,8 +29,11 @@ export default async function BlogPost({ params }) {
     notFound();
   }
 
-  // Serialize the markdown content
-  const mdxSource = await serialize(post.content);
+  // Convert markdown to HTML
+  const processedContent = await remark()
+    .use(html)
+    .process(post.content);
+  const contentHtml = processedContent.toString();
 
   return (
     <div className="min-h-screen bg-zinc-800 p-5">
@@ -39,9 +42,10 @@ export default async function BlogPost({ params }) {
         <div className="text-zinc-400 mb-8">
           {new Date(post.date).toLocaleDateString()}
         </div>
-        <div className="prose prose-invert max-w-none">
-          <MDXRemote {...mdxSource} />
-        </div>
+        <div 
+          className="prose prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
       </article>
     </div>
   );
