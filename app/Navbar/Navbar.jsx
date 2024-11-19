@@ -48,6 +48,7 @@ export default function Navbar() {
               <MenuItem href="/" text="Home" description="Back to the home page." />
               <MenuItem href="/CV" text="Resume" description="View my resume." />
               <MenuItem href="/Contact" text="Contact" description="Get in touch with me." />
+              <MenuItem href="/Logs" text="Logs" description="Writeups of what I'm currently learning." />
             </nav>
           </div>
         </div>
