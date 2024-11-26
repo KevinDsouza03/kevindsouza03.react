@@ -1,8 +1,8 @@
-```
-title: "Setting up Home Assistant"
-date: "11/20/2024"
-excerpt: "A writeup of setting up Home Assistant on my Homelab."
-```
+---
+  title: "Setting up Home Assistant"
+  date: "11/20/2024"
+  excerpt: "A writeup of setting up Home Assistant on my Homelab."
+---
 
 # IoT (Internet of Things)
 
