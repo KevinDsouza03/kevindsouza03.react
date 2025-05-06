@@ -9,11 +9,10 @@ export default function Experience() {
           name="IT College Assistant"
           desc="
                   I currently work at the CSI as an IT College Assistant.I am responsible for solving hardware and software issues for over 500 students
-                  and staff, including I/O, network troubleshooting, and user account management. I am the first line of defense when it comes to
-                  resolving any problems and am usually the first to respond. Alongside this, I have also created a script using python for management that
+                  and staff, including I/O, network troubleshooting, and user account management. I am apart of the first line of defense when it comes to
+                  resolving any problems Alongside this, I have also created a script using python for management that
                   reduced manual processing time by over 92% by sorting and aggregating excel sheets, reducing time from 4 hours to under 20 minutes per month.
-                  Finally, I also have created and taught end-user support and training classes both virtually and physically, for migration between learning
-                  management systems and cloud-based platforms.
+                  Finally, I also have created and taught end-user support and training classes both virtually and physically.
                       "
         />
       </div>
