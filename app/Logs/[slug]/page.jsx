@@ -1,3 +1,4 @@
+
 import { getPost, getAllPosts } from '@/app/lib/posts';
 import { remark } from 'remark';
 import html from 'remark-html';
@@ -36,17 +37,15 @@ export default async function BlogPost({ params }) {
   const contentHtml = processedContent.toString();
 
   return (
-    <div className="min-h-screen bg-zinc-800 p-5">
-      <article className="max-w-4xl mx-auto bg-zinc-900/30 p-8 rounded-lg">
-        <h1 className="text-4xl font-bold text-white mb-4">{post.title}</h1>
-        <div className="text-zinc-400 mb-8">
-          {new Date(post.date).toLocaleDateString()}
-        </div>
-        <div 
-          className="prose prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
-        />
-      </article>
-    </div>
+    <article className="max-w-4xl mx-auto bg-soft-black bg-opacity-30 p-8 rounded-lg">
+      <h1 className="text-4xl font-bold text-creme mb-4">{post.title}</h1>
+      <div className="text-light-mint mb-8">
+        {new Date(post.date).toLocaleDateString()}
+      </div>
+      <div 
+        className="prose prose-invert max-w-none text-light-mint font-libre"
+        dangerouslySetInnerHTML={{ __html: contentHtml }}
+      />
+    </article>
   );
 }

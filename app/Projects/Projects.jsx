@@ -18,19 +18,6 @@ export default function Projects() {
     thumbnail="/github.png"
     link="https://mta-speed-dashboard.streamlit.app/"
   />,
-    <Projectscard key={1}
-    image="placeholder.png"
-    name="TimeLens"
-    desc="
-    TimeLens is a productivity and habit tracker for Windows PCs. My inspiration for TimeLens is to track my own computer habits, both inside and outside of work sessions.
-    In the recent years, short-form content has become the popular medium, and with that a lot more distracted people. TimeLens aims to help people who're interested in optimizing
-    their computer habits, with ease of use in mind.
-    Currently, I'm using the WindowsAPI for obtaining program data, Python with Pandas for data processing, and am working on using React with ReCharts to create a dashboard,
-    and use Go as a backend for my SQL database. (Heres a placeholder photo of my dog)
-    "
-    thumbnail="/github.png"
-    link="https://github.com/Rate-My-School/RateMySchool"
-  />,
     <Projectscard key={2}
     image="RateMySchool.gif"
     name="RateMySchool"
