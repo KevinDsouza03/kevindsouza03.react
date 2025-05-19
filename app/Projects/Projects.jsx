@@ -14,6 +14,7 @@ export default function Projects() {
         "Provides frequency analysis of speed variations throughout the day",
         "Deployed on Streamlit Community Cloud for public access"
       ]}
+      technologies={["Python", "Pandas", "Streamlit", "Plotly", "Data Analysis"]}
       thumbnail="/github.png"
       link="https://mta-speed-dashboard.streamlit.app/"
     />,
@@ -27,6 +28,7 @@ export default function Projects() {
         "Implemented Bootstrap for responsive frontend styling",
         "Integrated Google Search API and university datasets"
       ]}
+      technologies={["MongoDB", "Express", "Node.js", "Bootstrap", "Google API"]}
       thumbnail="/github.png"
       link="https://github.com/Rate-My-School/RateMySchool"
     />,
@@ -40,6 +42,7 @@ export default function Projects() {
         "Integrated Steam datasets for accurate game suggestions",
         "Features visualization tools for game player statistics"
       ]}
+      technologies={["Python", "Langchain", "OpenAI API", "Streamlit", "Steam API"]}
       thumbnail="/github.png"
       link="https://github.com/CTP-AKP/AKP_Data_Science"
     />,
@@ -53,6 +56,7 @@ export default function Projects() {
         "Complete product listings and information pages",
         "Final project for Intro to Web Development course"
       ]}
+      technologies={["HTML", "CSS", "JavaScript", "Responsive Design"]}
       thumbnail="/github.png"
       link="www.google.com" 
     />
