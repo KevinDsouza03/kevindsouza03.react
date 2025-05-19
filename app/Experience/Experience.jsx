@@ -2,46 +2,51 @@ import Experiencecard from "./Experiencecard.jsx";
 
 export default function Experience() {
   return (
-    <div className="flex gap-4 font-montserrat flex-col sm:flex-row ">
-      <div className="flex animate-slideInFromLeft ">
-        <Experiencecard
-          image="/IT.png"
-          name="IT College Assistant"
-          desc="
-                  I currently work at the CSI as an IT College Assistant.I am responsible for solving hardware and software issues for over 500 students
-                  and staff, including I/O, network troubleshooting, and user account management. I am apart of the first line of defense when it comes to
-                  resolving any problems Alongside this, I have also created a script using python for management that
-                  reduced manual processing time by over 92% by sorting and aggregating excel sheets, reducing time from 4 hours to under 20 minutes per month.
-                  Finally, I also have created and taught end-user support and training classes both virtually and physically.
-                      "
-        />
-      </div>
-      <div className="flex animate-slideInFromLeft ">
-        <Experiencecard
-          image="/csi_logo.jpg"
-          name="Education"
-          desc="
-                  Here at CSI, I study Computer Science where 
-                  my coursework consists of Data Structures and Algorithms, Computer Networking and Security, Cybersecurity, Operating Systems,
-                  Computer Architecture, 
-                  Artifical Intelligence & Machine Learning, and Software Engineering.
-                      "
-        />
-      </div>
-      <div className="flex animate-slideInFromRight">
-        <Experiencecard
-          image="/ctp.png"
-          name="Data Science Bootcamp"
-          desc="
-                  This was a 9 month bootcamp where I learned the ins and outs of Data Science. 
-                  I learned how to use Pandas, Numpy, and Matplotlib: A strong trio for data visualization.
-                  I also learned how to train a Machine Learning model, and also utilize neural networks, RAG, and NLP.
-
-                  This culminated in my Game Insightify project, 
-                  
-                  where I displayed all that I learned throughout the 9 months.
-                      "
-        />
+    <div className="w-full max-w-screen-xl mx-auto px-4 py-8">
+      <div className="flex flex-wrap gap-6 font-montserrat justify-center">
+        <div className="flex animate-slideInFromLeft w-full sm:w-80 md:w-96 lg:flex-1">
+          <Experiencecard
+            image="/IT.png"
+            name="IT College Assistant"
+            desc={[
+              'Provide hardware and software support for over 500 students and staff, including I/O issues, network troubleshooting, and user account management.',
+              'Serve as first line of defense for resolving technical problems.',
+              'Developed a Python script for management by automating Excel sheet processing, reducing manual processing time by over 92% (from 4 hours to under 20 minutes per month).',
+              'Created and conducted end-user support and training sessions, both virtually and in person.'
+            ]}
+          />
+        </div>
+          
+        <div className="flex animate-slideInFromLeft w-full sm:w-80 md:w-96 lg:flex-1">
+          <Experiencecard
+            image="/csi_logo.jpg"
+            name="Education"
+            desc={[
+              'Studying Computer Science at CSI.',
+              'Coursework includes:',
+              ' Data Structures and Algorithms',
+              ' Computer Networking and Security',
+              ' Cybersecurity',
+              ' Operating Systems',
+              ' Computer Architecture',
+              ' Artificial Intelligence & Machine Learning',
+              ' Software Engineering',
+            ]}
+          />
+        </div>
+          
+        <div className="flex animate-slideInFromRight w-full sm:w-80 md:w-96 lg:flex-1">
+          <Experiencecard
+            image="/ctp.png"
+            name="Data Science Bootcamp"
+            desc={[
+              'Completed a 9-month Data Science Bootcamp.',
+              'Gained hands-on experience with Pandas, Numpy, and Matplotlib for data visualization.',
+              'Trained Machine Learning models and explored neural networks, RAG, and NLP.',
+              'Capstone project: Game Insightify — demonstrated the culmination of all learned skills.'
+            ]}
+          />
+        </div>
       </div>
     </div>
   );
