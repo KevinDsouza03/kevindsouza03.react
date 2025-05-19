@@ -31,7 +31,7 @@ export default function Navbar() {
       {!isOpen && <MenuButton onClick={toggleMenu} text="MENU" />}
       
       {isOpen && (
-        <div className="fixed inset-0 bg-sky-100 p-8 z-50 overflow-y-auto animate-slideInFromTop">
+        <div className="fixed inset-0 bg-sky-100 p-8 z-50 overflow-y-auto animate-slideInFromTop text-gray-600">
           <MenuButton onClick={toggleMenu} text="CLOSE" />
           
           <div className="mt-16 space-y-8">
