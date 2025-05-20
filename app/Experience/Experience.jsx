@@ -26,7 +26,7 @@ export default function Experience() {
               'Coursework includes:',
               ' Data Structures and Algorithms',
               ' Computer Networking and Security',
-              ' Cybersecurity',
+              ' Cybersecurity - PenTest+',
               ' Operating Systems',
               ' Computer Architecture',
               ' Artificial Intelligence & Machine Learning',
@@ -43,7 +43,7 @@ export default function Experience() {
               'Completed a 9-month Data Science Bootcamp.',
               'Gained hands-on experience with Pandas, Numpy, and Matplotlib for data visualization.',
               'Trained Machine Learning models and explored neural networks, RAG, and NLP.',
-              'Capstone project: Game Insightify — demonstrated the culmination of all learned skills.'
+              'Capstone project: Game Insightify - a chatbot utilizing skills from '
             ]}
           />
         </div>
