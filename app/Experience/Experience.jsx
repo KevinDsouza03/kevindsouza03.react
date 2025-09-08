@@ -43,7 +43,7 @@ export default function Experience() {
               'Completed a 9-month Data Science Bootcamp.',
               'Gained hands-on experience with Pandas, Numpy, and Matplotlib for data visualization.',
               'Trained Machine Learning models and explored neural networks, RAG, and NLP.',
-              'Capstone project: Game Insightify - a chatbot utilizing skills from '
+              'Capstone project: Game Insightify - a chatbot utilizing OpenAI API, RAG, and agents as a video game recommendation solution.'
             ]}
           />
         </div>
