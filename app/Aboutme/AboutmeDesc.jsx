@@ -5,7 +5,7 @@ export default function AboutmeDesc() {
         Hey, my name is <span className="block mt-2  text-olive-light ">Kevin</span>
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl font-libre">
-        An graduate in Computer Science passionate about IT and Cybersecurity.
+        A graduate in Computer Science, passionate about IT and Cybersecurity.
       </p>
     </div>
   );

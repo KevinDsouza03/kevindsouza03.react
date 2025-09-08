@@ -6,8 +6,20 @@ export default function Experience() {
       <div className="flex flex-wrap gap-6 font-montserrat justify-center">
         <div className="flex animate-slideInFromLeft w-full sm:w-80 md:w-96 lg:flex-1">
           <Experiencecard
+            image="/DSS-Logo.jpeg"
+            name="Security Engineering Intern"
+            desc={[
+              'I worked under the NYC Department of Social Services, within the Office of Data Security Management where our responsibility was to ensure security policies were followed and enforced across the DSS network.',
+              'Created an Ansible playbook integrated with an Azure DevOps Pipeline API to verify security compliance of our security stack, to newly provisoned Windows, RHEL, and Oracle Servers, to a network of over 15000+ hosts.',
+              'Developed a Splunk dashboard for upper management based on the output of the Ansible playbook for a overview of our security compliance.',
+              'Created a Splunk dashboard for remediation and overview, against our AWS environment against CIS benchmarks enabling automated compliance monitoring, remediation guidance, and improved cloud security posture.'
+            ]}
+          />
+        </div>
+        <div>
+          <Experiencecard
             image="/IT.png"
-            name="IT College Assistant"
+            name="IT Support Assistant - College of Staten Island"
             desc={[
               'Provide hardware and software support for over 500 students and staff, including I/O issues, network troubleshooting, and user account management.',
               'Serve as first line of defense for resolving technical problems.',
