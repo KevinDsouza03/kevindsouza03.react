@@ -1,6 +1,6 @@
 ---
 title: "Tailscale-style Wireguard VP"
-Date: "2025-12-27"
+date: "2025-12-27"
 excerpt: "Documenting modifying WireGuard to be more Tailscale-style"
 ---
 
