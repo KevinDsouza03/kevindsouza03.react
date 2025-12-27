@@ -1,6 +1,7 @@
 ---
-title: "{{Tailscale-style Wireguard VPN}}"
-Date: "{{12/27/2025}}"
+title: "{Tailscale-style Wireguard VP"
+Date: "2025-12-27"
+excerpt: "Documenting modifying WireGuard to be more Tailscale-style"
 ---
 
 ## Goal: Create a WireGuard VPN that acts like Tailscale full-tunnel exit node
