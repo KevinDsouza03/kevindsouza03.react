@@ -1,5 +1,5 @@
 ---
-title: "Tailscale-style Wireguard VP"
+title: "Tailscale-style Wireguard VPN"
 date: "2025-12-27"
 excerpt: "Documenting modifying WireGuard to be more Tailscale-style"
 ---
