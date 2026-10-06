@@ -1,7 +1,6 @@
 "use client";
 
 import Navbar from "../Navbar/Navbar.jsx";
-import { Document, Page, pdfjs } from "react-pdf";
 
 export default function CV() {
   return (
